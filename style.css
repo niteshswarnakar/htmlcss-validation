@@ -72,10 +72,9 @@ ul li {
   gap: 3rem;
 }
 .website-image {
-  height: auto;
   width: 100%;
-
-  border-radius: 50px;
+  align-self: center;
+  border-radius: 20px;
 }
 
 .footer {
@@ -94,5 +93,12 @@ ul li {
 @media (max-width: 1200px) {
   website-image {
     height: auto;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  website-image {
+    border-radius: 5px;
   }
 }
