@@ -1,0 +1,21 @@
+body {
+  background-color: #e3f2fd;
+}
+h1 {
+  font-size: 400%;
+  text-align: center;
+}
+#change {
+  color: #b2dfdb;
+}
+.bg {
+  background-color: #e3f2fd;
+}
+ul li {
+  font-weight: bold;
+}
+
+/* I added id in nav tag and id selector in external css file  */
+#second {
+  color: #e0e0e0;
+}
