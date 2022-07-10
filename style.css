@@ -1,0 +1,104 @@
+body {
+  background-color: #e3f2fd;
+  margin-bottom: 8rem;
+  /* text-align: center; */
+  font-size: 1.3rem;
+}
+h1 {
+  font-size: 400%;
+  text-align: center;
+}
+#change {
+  color: #b2dfdb;
+}
+.bg {
+  background-color: #e3f2fd;
+}
+ul li {
+  font-weight: bold;
+}
+
+/* I added id in nav tag and id selector in external css file  */
+#second {
+  color: #e0e0e0;
+}
+
+.social-media-section {
+  height: 110px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: rgb(227, 227, 227);
+  align-items: center;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+  margin-bottom: 5rem;
+  padding: 0 4rem;
+}
+.social-media-title {
+  text-align: center;
+  font-size: 3rem;
+  padding: 0 4rem;
+}
+.social-div {
+  max-width: 100px;
+  min-width: 20px;
+}
+
+.logo {
+  width: 100%;
+}
+
+.image-section {
+  margin: 100px 0 100px 0;
+  max-width: 100%;
+  background-color: rgb(222, 222, 222);
+}
+
+.image-heading {
+  padding: 4rem 0;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.image-grid {
+  display: grid;
+  max-width: 1700px;
+  padding: 0 2rem 6rem 2rem;
+  /* background-color: blue; */
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  gap: 3rem;
+}
+.website-image {
+  width: 100%;
+  align-self: center;
+  border-radius: 20px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.last-footer {
+  font-size: 1.5rem;
+}
+.last-link {
+  font-size: 2.5rem;
+}
+
+@media (max-width: 1200px) {
+  website-image {
+    height: auto;
+    border-radius: 5px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  website-image {
+    border-radius: 5px;
+  }
+}
